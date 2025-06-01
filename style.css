@@ -10,7 +10,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 40px;
+  padding: 20px 200px;
 }
 
 .logo {
@@ -36,7 +36,7 @@ a {
 
 .header {
   display: flex;
-  padding: 45px;
+  padding: 45px 200px;
   justify-content: space-between;
 }
 
@@ -141,7 +141,7 @@ body {
   background-color: #e5e7eb;
   color: #1f2937;
   display: flex;
-  padding: 100px;
+  padding: 100px 250px;
   flex-direction: column;
 }
 
