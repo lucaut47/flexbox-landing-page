@@ -4,12 +4,36 @@ body {
   color: #f9faf8;
 }
 
+/* Navbar */
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px 40px;
 }
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+  font-weight: bolder;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  gap: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Header */
+
 .header {
   display: flex;
   padding: 45px;
@@ -35,34 +59,10 @@ body {
 .left p {
   width: 450px;
 }
-
-.logo {
-  font-size: 24px;
-  color: #f9faf8;
-  font-weight: bolder;
-}
 .right img {
   width: 400px;
   height: auto;
   border-radius: 8px;
-}
-
-.gallery-container img {
-  width: 100px;
-  height: auto;
-}
-
-ul {
-  display: flex;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  gap: 16px;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
 }
 
 p,
@@ -75,23 +75,6 @@ li {
 .cta-container,
 .cta-container button {
   background-color: #3882f6;
-}
-
-.cta-container button {
-  color: white;
-}
-
-.gallery {
-  background-color: white;
-  color: #1f2937;
-}
-
-.gallery-title {
-  font-size: 36px;
-  font-weight: 900;
-  color: #1f2937;
-  text-align: center;
-  padding: 30px;
 }
 
 /* Stick footer to bottom */
@@ -117,6 +100,19 @@ body {
 }
 
 /* Gallery */
+
+.gallery {
+  background-color: white;
+  color: #1f2937;
+}
+
+.gallery-title {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1f2937;
+  text-align: center;
+  padding: 30px;
+}
 
 .gallery-container {
   display: flex;
@@ -160,4 +156,39 @@ body {
   font-weight: bold;
   align-self: flex-end;
   margin-top: 32px;
+}
+
+/* CTA */
+.cta-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f9faf8;
+  padding: 100px;
+}
+
+.cta {
+  background-color: #3882f6;
+  display: flex;
+  width: 700px;
+  height: auto;
+  padding: 50px 50px;
+  gap: 54px;
+  justify-content: space-between;
+  border-radius: 8px;
+}
+
+.cta-container button {
+  padding: 10px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: 2px solid white;
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+
+.cta-title {
+  font-size: 24px;
+  font-weight: 900;
 }
