@@ -94,17 +94,6 @@ li {
   padding: 30px;
 }
 
-.quote-container {
-  background-color: #e5e7eb;
-  color: #1f2937;
-}
-
-.quote {
-  font-size: 36px;
-  font-weight: 300;
-  font-style: italic;
-}
-
 /* Stick footer to bottom */
 
 html,
@@ -133,13 +122,13 @@ body {
   display: flex;
   text-align: center;
   justify-content: center;
-  gap: 30px;
+  gap: 54px;
   padding-bottom: 40px;
 }
 
 .gallery-container img {
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   object-fit: cover;
   object-position: center;
   border-radius: 8px;
@@ -151,3 +140,24 @@ body {
 }
 
 /* Quote */
+
+.quote-container {
+  background-color: #e5e7eb;
+  color: #1f2937;
+  display: flex;
+  padding: 100px;
+  flex-direction: column;
+}
+
+.quote {
+  font-size: 36px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.author {
+  font-size: 22px;
+  font-weight: bold;
+  align-self: flex-end;
+  margin-top: 32px;
+}
