@@ -4,18 +4,47 @@ body {
   color: #f9faf8;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 40px;
+}
+.header {
+  display: flex;
+  padding: 45px;
+  justify-content: space-between;
+}
+
 .main-title {
   font-size: 48px;
   font-weight: 900;
+  width: 330px;
+}
+
+.header-button button {
+  padding: 10px 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  margin: 10px 0px;
+  border-radius: 8px;
+}
+
+.left p {
+  width: 450px;
 }
 
 .logo {
   font-size: 24px;
   color: #f9faf8;
+  font-weight: bolder;
 }
 .right img {
-  width: 300px;
+  width: 400px;
   height: auto;
+  border-radius: 8px;
 }
 
 .gallery-container img {
@@ -24,9 +53,11 @@ body {
 }
 
 ul {
+  display: flex;
   list-style: none;
   padding: 0;
   margin: 0;
+  gap: 16px;
 }
 
 a {
@@ -59,6 +90,8 @@ li {
   font-size: 36px;
   font-weight: 900;
   color: #1f2937;
+  text-align: center;
+  padding: 30px;
 }
 
 .quote-container {
@@ -71,3 +104,27 @@ li {
   font-weight: 300;
   font-style: italic;
 }
+
+/* Stick footer to bottom */
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+}
+
+.footer {
+  text-align: center;
+  padding: 30px;
+}
+
+/* Gallery */
